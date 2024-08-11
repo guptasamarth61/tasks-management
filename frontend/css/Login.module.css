@@ -1,0 +1,40 @@
+/* FILE: css/Login.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 1rem;
+  }
